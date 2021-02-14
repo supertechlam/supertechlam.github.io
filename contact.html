@@ -42,7 +42,7 @@ published: true
 
           <div id="contact-response"></div>
           
-          <form action="http://templates.designorbital.com/baleen/contact.php" method="post" id="contact-form">
+          <!--form action="http://templates.designorbital.com/baleen/contact.php" method="post" id="contact-form">
             <fieldset>
               <div class="form-group form-group-fullname">
                 <label class="control-label" for="fullname">NAME *</label>
@@ -58,7 +58,18 @@ published: true
               </div>           
               <button type="submit" class="btn btn-primary">Submit</button>
             </fieldset>
-          </form>
+          </form!-->
+          <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+                <form action="https://formspree.io/mpzyqdng" method="POST">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Type your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
           
         </div> 
       </div>
