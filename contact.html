@@ -67,10 +67,12 @@ published: true
         <div id="contact-form">
               <body>
                 <form name="input" action="https://formspree.io/xrgoveag" method="POST">
-                <p>Name: <input type="text" name="name" placeholder="Your Name" required></p>
-                <p>Email: <input type="email" name="_replyto" placeholder="Your email" required></p>
-                <p>Message: <textarea name="message" placeholder="Type your message" required></textarea></p>
-                <p><button type="submit">Send</button></p>
+                Name:    <input type="text" name="name" placeholder="Your Name" required>
+                Email:   <input type="email" name="_replyto" placeholder="Your email" required>
+                Message: <textarea name="message" placeholder="Type your message" required></textarea>
+                <input type="submit" value="Send">
+                  <input type="hidden" name="_subject" value="Enter your subject here" />
+                  <input type="hidden" name="next" value="thanks.html" />
                 </form>
               </body>
         </div>
