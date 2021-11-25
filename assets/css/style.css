@@ -160,7 +160,7 @@ a {
     -ms-transition: all .3s;
 }
 
-a:hover { background-color: #fff;
+a:hover { 
 	color: #000; text-decoration: none; }
 
 strong { font-weight: bold; }
